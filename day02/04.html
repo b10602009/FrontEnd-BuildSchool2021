@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+     .L1{
+        border: 5px solid #666;
+        padding: 40px;
+        background-color: #ccc  !important;
+      }
+      div{
+          background-color: pink  !important;
+      }
+      .L2{
+        border: 5px solid #666;
+        padding: 40px;
+        background-color: #aaa;
+      }
+      .L3{
+        border: 5px solid #666;
+        padding: 40px;
+        background-color: #888;
+      }
+      .L1 > div > div{
+          background-color: #0f0;
+      }
+      .L1 div{
+          background-color: #f00;
+      }
+    
+    </style>
+</head>
+<body>
+   <div class="L1" style="background-color: #5af;">
+       L1
+       <div class="L2">
+           L2
+           <div class="L3">
+             L3
+           </div>
+       </div>
+   </div>
+</body>
+</html>

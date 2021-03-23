@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .papa{
+            width: 960px;
+            background-color: #ccc;
+            display: flex; /*將第一層子層物件改成橫的*/
+            flex-wrap: wrap; /*尺寸超過之後會自動換行*/
+        }
+        .item{
+            width: 100px;
+            height: 100px;
+            background-color: #f00;
+            font-size: 50px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="papa">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+    </div>
+</body>
+</html>
