@@ -1,0 +1,21 @@
+@import './_colorSetting.scss';
+
+%box{
+    padding: 10px;
+    margin: 5px;
+    font-size: 50px;
+}
+
+.box{
+    @extend %box;
+    font-size: 50px;
+    background-color:$main-background-color;
+    p{
+        color: $main-text-color;
+    }
+}
+
+.box-test{
+    @extend %box;
+    background-color: pink;
+}
